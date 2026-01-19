@@ -74,7 +74,7 @@ const handleSubmit = async (e) => {
       alert("Bank added successfully");
     }
 
-    navigate("/bank-details");
+    navigate("/settings/bank-details");
   } catch (error) {
     console.error(error.response?.data || error);
     alert("Operation failed");
